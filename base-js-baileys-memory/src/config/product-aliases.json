@@ -1,0 +1,89 @@
+{
+  "termica": {
+    "label": "Térmica",
+    "patterns": [
+      "termica",
+      "termomagnetico",
+      "termomagnético",
+      "llave termica",
+      "llave termomagnetica",
+      "interruptor termico",
+      "interruptor",
+      "disyuntor"
+    ]
+  },
+  "diferencial": {
+    "label": "Diferencial",
+    "patterns": [
+      "diferencial",
+      "disyuntor diferencial",
+      "interruptor diferencial",
+      "proteccion diferencial",
+      "ddt"
+    ]
+  },
+  "cable": {
+    "label": "Cable",
+    "patterns": [
+      "cable",
+      "cables",
+      "conductor",
+      "unipolar",
+      "subterraneo",
+      "subterráneo",
+      "cordon"
+    ]
+  },
+  "zocalo": {
+    "label": "Zócalo / Enchufe",
+    "patterns": [
+      "zocalo",
+      "enchufe",
+      "toma",
+      "tomacorriente"
+    ]
+  },
+  "terminal": {
+    "label": "Terminal",
+    "patterns": [
+      "terminal",
+      "terminales",
+      "puntera",
+      "punteras"
+    ]
+  },
+  "caja": {
+    "label": "Caja / Cajetín",
+    "patterns": [
+      "caja",
+      "cajetin",
+      "cajetin",
+      "cajas"
+    ]
+  },
+  "cinta": {
+    "label": "Cinta aislante",
+    "patterns": [
+      "cinta",
+      "aislante",
+      "aisladora",
+      "cinta aislante"
+    ]
+  },
+  "prensacable": {
+    "label": "Prensacable",
+    "patterns": [
+      "prensacable",
+      "prensa cable",
+      "pg"
+    ]
+  },
+  "fusible": {
+    "label": "Fusible",
+    "patterns": [
+      "fusible",
+      "porta fusible",
+      "portafusible"
+    ]
+  }
+}
