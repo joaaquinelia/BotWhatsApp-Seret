@@ -73,14 +73,14 @@ Ya tienes estos comandos disponibles:
 
 | Quiero... | Leer... |
 |-----------|---------|
-| Copiar y pegar el código | [COPY_PASTE_GUIDE.md](./COPY_PASTE_GUIDE.md) |
-| Entender cómo funciona | [PRIVATE_COMMANDS_GUIDE.md](./PRIVATE_COMMANDS_GUIDE.md) |
-| Agregar un nuevo comando | [PRIVATE_COMMANDS_EXAMPLES.md](./PRIVATE_COMMANDS_EXAMPLES.md) |
-| Solucionar un problema | [PRIVATE_COMMANDS_TROUBLESHOOTING.md](./PRIVATE_COMMANDS_TROUBLESHOOTING.md) |
-| Referencia rápida | [QUICK_REFERENCE.md](./QUICK_REFERENCE.md) |
-| Verificar instalación | [INSTALLATION_CHECKLIST.md](./INSTALLATION_CHECKLIST.md) |
-| Ver resumen visual | [SUMMARY.md](./SUMMARY.md) |
-| Índice completo | [PRIVATE_COMMANDS_INDEX.md](./PRIVATE_COMMANDS_INDEX.md) |
+| Copiar y pegar el código | [COPY_PASTE_GUIDE.md](./docs/COPY_PASTE_GUIDE.md) |
+| Entender cómo funciona | [PRIVATE_COMMANDS_GUIDE.md](./docs/PRIVATE_COMMANDS_GUIDE.md) |
+| Agregar un nuevo comando | [PRIVATE_COMMANDS_EXAMPLES.md](./docs/PRIVATE_COMMANDS_EXAMPLES.md) |
+| Solucionar un problema | [PRIVATE_COMMANDS_TROUBLESHOOTING.md](./docs/PRIVATE_COMMANDS_TROUBLESHOOTING.md) |
+| Referencia rápida | [QUICK_REFERENCE.md](./docs/QUICK_REFERENCE.md) |
+| Verificar instalación | [INSTALLATION_CHECKLIST.md](./docs/INSTALLATION_CHECKLIST.md) |
+| Ver resumen visual | [SUMMARY.md](./docs/SUMMARY.md) |
+| Índice completo | [PRIVATE_COMMANDS_INDEX.md](./docs/PRIVATE_COMMANDS_INDEX.md) |
 
 ---
 
@@ -93,7 +93,7 @@ Ya tienes estos comandos disponibles:
 - ✅ ¿Escribiste el comando CON barra? (`/articulo` no `articulo`)
 - ✅ ¿El bot dice `✅ Comandos privados inicializados`?
 
-Si NO, lee: [PRIVATE_COMMANDS_TROUBLESHOOTING.md](./PRIVATE_COMMANDS_TROUBLESHOOTING.md)
+Si NO, lee: [PRIVATE_COMMANDS_TROUBLESHOOTING.md](./docs/PRIVATE_COMMANDS_TROUBLESHOOTING.md)
 
 ---
 
@@ -179,7 +179,7 @@ Una vez que funcione, puedes:
 3. **Integrar APIs externas**
    - APIs de clima, noticias, etc.
 
-Ver: [PRIVATE_COMMANDS_EXAMPLES.md](./PRIVATE_COMMANDS_EXAMPLES.md)
+Ver: [PRIVATE_COMMANDS_EXAMPLES.md](./docs/PRIVATE_COMMANDS_EXAMPLES.md)
 
 ---
 
@@ -224,8 +224,8 @@ export const AUTHORIZED_NUMBERS = [
 - Crea nuevos comandos personalizados
 
 **SI HAY PROBLEMA:**
-- Consulta [TROUBLESHOOTING](./PRIVATE_COMMANDS_TROUBLESHOOTING.md)
-- O sigue [INSTALLATION_CHECKLIST.md](./INSTALLATION_CHECKLIST.md)
+- Consulta [TROUBLESHOOTING](./docs/PRIVATE_COMMANDS_TROUBLESHOOTING.md)
+- O sigue [INSTALLATION_CHECKLIST.md](./docs/INSTALLATION_CHECKLIST.md)
 
 ---
 
@@ -234,14 +234,14 @@ export const AUTHORIZED_NUMBERS = [
 Todo está documentado en esta carpeta. Elegí según tu necesidad:
 
 - 🚀 **EMPEZA AQUÍ** (este archivo) - Intro rápida
-- ⚡ [QUICK_REFERENCE.md](./QUICK_REFERENCE.md) - Referencia de 30 segundos
-- 📋 [COPY_PASTE_GUIDE.md](./COPY_PASTE_GUIDE.md) - Copiar y pegar exacto
-- 📚 [PRIVATE_COMMANDS_GUIDE.md](./PRIVATE_COMMANDS_GUIDE.md) - Guía completa
-- 💡 [PRIVATE_COMMANDS_EXAMPLES.md](./PRIVATE_COMMANDS_EXAMPLES.md) - Ejemplos
-- 🐛 [PRIVATE_COMMANDS_TROUBLESHOOTING.md](./PRIVATE_COMMANDS_TROUBLESHOOTING.md) - Problemas
-- ✅ [INSTALLATION_CHECKLIST.md](./INSTALLATION_CHECKLIST.md) - Verificación
-- 📊 [SUMMARY.md](./SUMMARY.md) - Resumen visual
-- 📋 [PRIVATE_COMMANDS_INDEX.md](./PRIVATE_COMMANDS_INDEX.md) - Índice
+- ⚡ [QUICK_REFERENCE.md](./docs/QUICK_REFERENCE.md) - Referencia de 30 segundos
+- 📋 [COPY_PASTE_GUIDE.md](./docs/COPY_PASTE_GUIDE.md) - Copiar y pegar exacto
+- 📚 [PRIVATE_COMMANDS_GUIDE.md](./docs/PRIVATE_COMMANDS_GUIDE.md) - Guía completa
+- 💡 [PRIVATE_COMMANDS_EXAMPLES.md](./docs/PRIVATE_COMMANDS_EXAMPLES.md) - Ejemplos
+- 🐛 [PRIVATE_COMMANDS_TROUBLESHOOTING.md](./docs/PRIVATE_COMMANDS_TROUBLESHOOTING.md) - Problemas
+- ✅ [INSTALLATION_CHECKLIST.md](./docs/INSTALLATION_CHECKLIST.md) - Verificación
+- 📊 [SUMMARY.md](./docs/SUMMARY.md) - Resumen visual
+- 📋 [PRIVATE_COMMANDS_INDEX.md](./docs/PRIVATE_COMMANDS_INDEX.md) - Índice
 
 ---
 
