@@ -8,11 +8,17 @@ function requiredEnv(name) {
   return String(value).trim()
 }
 
+function envOrDefault(name, fallback) {
+  const value = process.env[name]
+  if (!value || !String(value).trim()) return fallback
+  return String(value).trim()
+}
+
 const config = {
-  user: requiredEnv('DB_USER'),
+  user: envOrDefault('DB_USER', 'sa'),
   password: requiredEnv('DB_PASSWORD'),
-  server: requiredEnv('DB_SERVER'),
-  database: requiredEnv('DB_NAME'),
+  server: envOrDefault('DB_SERVER', 'localhost'),
+  database: envOrDefault('DB_NAME', 'master'),
   options: {
     encrypt: false,
     trustServerCertificate: true,
