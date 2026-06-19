@@ -1,0 +1,29 @@
+# Node
+node_modules/
+
+# Build artifacts
+dist/
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# WhatsApp/session artifacts
+bot_sessions/
+*_sessions/
+*tokens/
+.wwebjs*/
+*qr.png

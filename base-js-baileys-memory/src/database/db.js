@@ -1,10 +1,18 @@
 import sql from 'mssql'
 
+function requiredEnv(name) {
+  const value = process.env[name]
+  if (!value || !String(value).trim()) {
+    throw new Error(`Falta la variable de entorno requerida: ${name}`)
+  }
+  return String(value).trim()
+}
+
 const config = {
-  user: String(process.env.DB_USER ?? 'sa').trim(),
-  password: String(process.env.DB_PASSWORD ?? 'Axoft1988').trim(),
-  server: String(process.env.DB_SERVER ?? 'SERVERHP\\AXSQLEXPRESS').trim(),
-  database: String(process.env.DB_NAME ?? 'ELECTRICIDAD_SERET_SRL').trim(),
+  user: requiredEnv('DB_USER'),
+  password: requiredEnv('DB_PASSWORD'),
+  server: requiredEnv('DB_SERVER'),
+  database: requiredEnv('DB_NAME'),
   options: {
     encrypt: false,
     trustServerCertificate: true,
