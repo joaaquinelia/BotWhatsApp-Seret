@@ -1,0 +1,13 @@
+{
+  "name": "botwhatsapp-seret-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root launcher for BotWhatsApp-Seret",
+  "scripts": {
+    "install:app": "npm install --prefix base-js-baileys-memory",
+    "postinstall": "npm run install:app",
+    "start": "npm --prefix base-js-baileys-memory run start",
+    "dev": "npm --prefix base-js-baileys-memory run dev",
+    "lint": "npm --prefix base-js-baileys-memory run lint"
+  }
+}
